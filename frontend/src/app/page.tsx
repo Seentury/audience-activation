@@ -148,7 +148,7 @@ export default function Home() {
         />
 
       )}
-      <ActivationHistory />
+      <ActivationHistory audiences={audiences} />
     </main>
 
   );
